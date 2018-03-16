@@ -1,0 +1,113 @@
+.userlevel {
+    width: 100%;
+    text-align: right;
+}
+
+.userlevel::after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: auto;
+    content: attr(title);
+    display: inline-block;
+    padding: 2px 6px;
+}
+
+span.userlevel {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: auto;
+    padding: 2px 6px;
+    text-shadow: 1px 1px 4px #333;
+    font-size: 0.6rem;
+    border-radius: 0;
+}
+
+.postrender .postinner > .postuser {
+    padding: 0px;
+}
+
+.postrender .postinner > .postuser .username {
+    text-align: center;
+    text-shadow: 1px 1px 0px #0009;
+    font-weight: bolder;
+    padding-bottom: 0.8rem;
+    padding-top: 1.7rem;
+    top: 0px;
+}
+#toolbar{right:0px;position:fixed;} 
+.postblock-own .posthead{
+    background-color: #F0FFC0;
+}
+.alert-dropdown { padding: .5rem; }
+.alert-dropdown .alert-item { margin: 0 -.5rem; }
+.baninfo { background-color: #DD0000 !important; color: #FFE7E7; }
+.username a { color: #03a9f4 !important; }
+.user-gold a { color: #e8b622 !important; }
+.user-moderator a { color: #8bc34a !important; }
+.user-admin a { color: #b185ff !important; }
+.user-banned a { color: #DD0000 !important; }
+.ql-container.ql-snow .ql-editor p {color: #0a0a0a; font-size: 11pt;}
+#header #toolbar {
+    background-color: #2890E2;
+}
+#wrapper #content .forumcategoryblock .forumcategoryheader {
+    background-color: #2890E2;
+}
+#header #toolbar .navbar-item {
+    color: #f2f2f2;
+}
+#header #toolbar .navbar-item:hover {
+    background-color: #1B69A6 !important;
+}
+#wrapper #content .forumcategoryblock .forumcategoryheader .categorytitle, #wrapper #content .forumcategoryblock .forumcategoryheader .mdi {
+    color: white
+}
+ 
+#wrapper #content .pagnation.threadpagnation, #wrapper #content .pagnation.postpagnation {
+    background-color: #2890E2 !important;
+}
+#wrapper #content .pagnation.threadpagnation, #wrapper #content .pagnation.postpagnation {
+    background-color: #2890E2 !important;
+}
+#wrapper #content .pagnation.threadpagnation a.page.is-active, #wrapper #content .pagnation.postpagnation a.page.is-active {
+    background-color: #1B69A6 !important;
+}
+.page.pageinfo {
+    color: white !important;
+}
+#wrapper #content .pagnation.threadpagnation .page, #wrapper #content .pagnation.postpagnation .page {
+    color: white !important;
+}
+#wrapper #content .pagnation.threadpagnation a.page:hover, #wrapper #content .pagnation.postpagnation a.page:hover {
+    color: white !important;
+    background-color: #1B69A6 !important;
+}
+.postrender .postinner>.postuser.has-background-image:hover .background-image:before {
+    opacity: 0.1;
+    transition: all ease-in-out 2s 0.2s;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+.postrender .postinner>.postuser .background-image:before {
+    content: '';
+    background-color: rgba(255,255,255,0.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    transition: 0.2s all ease-out;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+.postrender .postinner > .postuser .background-image::before {background-color: #eee;}
+.postrender .postinner > .postuser .background-image::after {background-color: #f1f1f1;}
+.threadreplysection{ background-color: #f1f1f1; }
